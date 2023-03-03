@@ -1,0 +1,1 @@
+cmd_headers/include/linux/caif/.install := /bin/bash ../scripts/headers_install.sh headers/include/linux/caif ../include/uapi/linux/caif if_caif.h caif_socket.h; /bin/bash ../scripts/headers_install.sh headers/include/linux/caif ./include/generated/uapi/linux/caif ; touch headers/include/linux/caif/.install
